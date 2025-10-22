@@ -1,0 +1,43 @@
+body {
+    font-family: sans-serif;
+}
+ 
+ 
+ .kontener {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 80px 1fr 60px;
+    grid-template-areas:
+    "fejlec fejlec"
+    "menu tartalom"
+    "lablec lablec";
+}
+
+.fejlec {
+    grid-area: fejlec;
+    background-color: rgb(63, 119, 182);
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.menu {
+    grid-area: menu;
+    background-color: rgb(199, 199, 199);
+        padding: 15px;
+}
+
+.tartalom {
+    grid-area: tartalom;
+    text-align: justify;
+    padding: 15px;
+    margin: 15px;
+}
+
+.lablec {
+    grid-area: lablec;
+    background-color: rgb(77, 77, 77);
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+}
