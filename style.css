@@ -1,8 +1,7 @@
 body {
     font-family: sans-serif;
 }
- 
- 
+
  .kontener {
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -17,14 +16,15 @@ body {
     grid-area: fejlec;
     background-color: rgb(63, 119, 182);
     text-align: center;
-    font-weight: bold;
     padding: 20px;
+    color: white;
+    font-size: 30px;
 }
 
 .menu {
     grid-area: menu;
     background-color: rgb(199, 199, 199);
-        padding: 15px;
+    padding: 15px;
 }
 
 .tartalom {
@@ -38,6 +38,7 @@ body {
     grid-area: lablec;
     background-color: rgb(77, 77, 77);
     text-align: center;
-    font-weight: bold;
     padding: 20px;
+    color: white;
+    font-size: 20px;
 }
